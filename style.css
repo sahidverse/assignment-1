@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+   
+}
+body{
+    background: white;
 }
 
 /* nav css start here */
@@ -105,20 +109,17 @@ nav div img {
 }
 .speaker-section h2{
     text-align: center;
+    padding: 12px 0px;
 }
 h6{
     color: #2563EB;
 
 }
-/* .developers div p{
-    color:#bebebe ;
-    border-radius:6px 6px 0px 0px ;
-} */
+
 .developers div img{
     border-radius: 6px 6px 0px 0px ;
     
 }
-/* .developers div{
-    border: 1px solid rgb(182, 182, 182);
-} */
+
+}
 /* speakers section end  */
