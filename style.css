@@ -53,25 +53,26 @@ nav div img {
 /* banner section start */
 
 .banner-img {
-
+    
     width: 100vw;
     height: 80vh;
     margin: auto;
-    margin-top: 12px;
-
+    /* margin-top: 12px; */
+    
 }
 
 .banner {
     position: relative;
     display: inline-block;
-
+    
 }
+
 
 .banner-text {
     color: #FFFFFF;
     position: absolute;
     top: 13%;
-
+    
     text-align: center;
 
     ;
@@ -84,7 +85,7 @@ nav div img {
 
 .banner-text p {
     margin: 6px 120px;
-
+    
 }
 
 /* banner section end */
@@ -100,7 +101,7 @@ nav div img {
     justify-content: center;
     align-items: center;
     margin: auto;
-
+    
 }
 .developers img{
     height: auto;
@@ -111,9 +112,10 @@ nav div img {
     text-align: center;
     padding: 12px 0px;
 }
+
 h6{
     color: #2563EB;
-
+    
 }
 
 .developers div img{
@@ -123,3 +125,212 @@ h6{
 
 
 /* speakers section end  */
+
+/* card section start  */
+.card{
+    padding: 66px 122px 66px 0px;
+}
+.card-upper-text h2{
+    color: #0D1B2A;
+    text-align: center;
+    font-size: 44px;
+    
+    
+}
+.card-upper-text p{
+
+    color: #575757;
+    text-align: center;
+}
+
+.card-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 205px);
+    justify-content: center;
+    justify-items: center;
+    gap: 32px;
+    margin: 28px 0px 0px 111px;
+    
+}
+
+.card-parent > div{
+    border: 1px solid #d7cfcf;
+    border-radius: 4px;
+   
+}
+.card-1{
+    background-color: beige;
+
+}
+
+.card-2{
+    background-color: #0D1B2A;
+    color: white;
+    padding: 22px 0px;
+}
+.card-2 span{
+    color: #93C5FD;
+    /* padding: 22px 11px 0px 11px; */
+}
+
+
+.card-3{
+    background-color: beige;
+
+}
+
+div div ul{
+    list-style-position: inside;
+    margin: 6px;
+}
+div ul li{
+    margin: 8px;
+}
+.card-top{
+    margin: 22px 0px
+}
+
+.pro-btn{
+    background: #2563EB;
+    color: white;
+    width: 100%;
+    margin-top: 44px;
+}
+.card-btn{
+    color: #2563EB;
+    width: 100%;
+    /* padding: 5px 54px; */
+    border-radius: 6px;
+    /* margin: 11px; */
+}
+
+/* card section end  */
+
+
+
+/* missing section */
+
+
+/* ==========================
+   WHY DEVCONF SECTION
+========================== */
+
+.why-devconf{
+    max-width:1200px;
+    margin:100px auto;
+    padding:0 20px;
+}
+
+.why-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.why-heading h2{
+    font-size:48px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.why-heading p{
+    color:#6B7280;
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.why-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.why-card{
+    background:#ffffff;
+    border:1px solid #E5E7EB;
+    border-radius:18px;
+    padding:35px 28px;
+    transition:.35s;
+}
+
+.why-card:hover{
+    transform:translateY(-10px);
+    border-color:#2563EB;
+    box-shadow:0 18px 40px rgba(37,99,235,.15);
+}
+
+.icon{
+    width:65px;
+    height:65px;
+    background:#EEF4FF;
+    color:#2563EB;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    font-size:28px;
+    margin-bottom:25px;
+}
+
+.why-card h3{
+    font-size:22px;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.why-card p{
+    color:#6B7280;
+    line-height:1.8;
+    font-size:16px;
+}
+
+.why-btn{
+    text-align:center;
+    margin-top:60px;
+}
+
+.why-btn .common-btn{
+    width:180px;
+    height:50px;
+    font-size:16px;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:992px){
+
+    .why-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .why-heading h2{
+        font-size:40px;
+    }
+
+}
+
+.banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+    img-f
+@media(max-width:768px){
+
+    .why-container{
+        grid-template-columns:1fr;
+    }
+
+    .why-heading h2{
+        font-size:34px;
+    }
+
+    .why-heading p{
+        font-size:16px;
+    }
+
+}
