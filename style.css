@@ -4,7 +4,7 @@
    
 }
 body{
-    background: white;
+    background: rgb(158, 133, 133);
 }
 
 /* nav css start here */
@@ -30,7 +30,7 @@ nav {
 
 ul li a {
     text-decoration: none;
-    color: #575757;
+    color: #0e161bad;
 }
 
 .common-btn {
